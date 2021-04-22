@@ -1,0 +1,39 @@
+body{
+    padding-top:800px;
+    text-align: center;
+    
+}
+#welcome{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:800px;
+        width:100%;
+    background: linear-gradient(#0af27e 0%,#0acbf2 100%);
+    display:table;
+}
+.welcome inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.profileimg{
+    padding-top: 20px;
+    width:200px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+#bio{
+    font-family:fantasy;
+    font-size: 25px;
+    padding-left: 100px;
+        padding-right: 100px;
+}
+.line{
+    width:100px;
+    height: 6px;
+        background-color: darkorange;
+    margin: 8px auto;
+        
+}
